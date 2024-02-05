@@ -18,3 +18,13 @@ The result of this division becomes a term in the quotient.
 Multiply the divisor by this term from the quotient.
 Subtract this product from the current remainder.
 Update the remainder with the result of the subtraction.
+
+**Move to the next term**:
+Repeat step 2 for the next-highest degree term in the dividend and the updated remainder.
+
+**Continue looping**:
+Keep repeating step 2 until you reach a term in the dividend with a lower degree than the divisor.
+
+**Finalize**:
+The final remainder is the remainder of the division (cannot be divided further by the divisor).
+The collected terms in the quotient represent the result of the division.
